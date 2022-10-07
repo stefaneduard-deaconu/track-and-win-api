@@ -1,0 +1,28 @@
+{
+  "name": "track-and-win-api",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "the backend for the tranc-and-win application",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stefaneduard-deaconu/track-and-win-api.git"
+  },
+  "keywords": [
+    "productivity",
+    "backend"
+  ],
+  "author": "stefan@stefandeaconu.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/stefaneduard-deaconu/track-and-win-api/issues"
+  },
+  "homepage": "https://github.com/stefaneduard-deaconu/track-and-win-api#readme",
+  "dependencies": {
+    "@prisma/client": "^4.4.0",
+    "express": "^4.18.1"
+  }
+}
